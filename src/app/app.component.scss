@@ -1,0 +1,21 @@
+.title {
+  text-align: center;
+}
+
+.biblioteka {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  @media screen and (min-width: 768px) {
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .biblioteka__knjige + .biblioteka__clanovi {
+    margin-top: 1.5rem;
+    @media screen and (min-width: 768px) {
+      margin-top: 0;
+    }
+  }
+}

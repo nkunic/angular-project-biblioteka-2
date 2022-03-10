@@ -1,0 +1,22 @@
+<div class="lista-clanova">
+  <div class="lista-clanova__item" *ngFor="let clan of clanovi">
+    <app-clan [id]="clan.id" [ime]="clan.ime" [knjiga]="clan.knjiga">
+    </app-clan>
+  </div>
+</div>
+
+<!--
+<div>
+  <app-clan 
+    [id]="1"
+    [ime]="'Amel Hadzifejzović'"
+    [knjiga]="'Hiljadu čudesnih sunaca'">
+  </app-clan>
+</div>  
+-->
+
+<!--
+<div>
+    <app-clan></app-clan>
+</div>
+-->

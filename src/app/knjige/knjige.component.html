@@ -1,0 +1,49 @@
+<div class="lista-knjiga">
+  <div class="lista-knjiga__item" *ngFor="let knjiga of knjige">
+    <app-knjiga
+      [id]="knjiga.id"
+      [autor]="knjiga.autor"
+      [naslov]="knjiga.naslov"
+    >
+    </app-knjiga>
+  </div>
+</div>
+
+<!--
+<div class="lista-knjiga">
+  <div class="lista-knjiga__item">
+    <app-knjiga [id]="1"
+                [autor]="'Haled Hoseini'"
+                [naslov]="'Hiljadu čudesnih sunaca'">
+    </app-knjiga>
+  </div>
+  <div class="lista-knjiga__item">
+    <app-knjiga [id]="2"
+                [autor]="'J.K.Rouling'"
+                [naslov]="'Hari Poter i Red Feniksa'">
+    </app-knjiga>
+  </div>
+  <div class="lista-knjiga__item">
+    <app-knjiga [id]="3"
+                [autor]="'Dzodi Pikol'"
+                [naslov]="'Čuvar svoje sestre'">
+    </app-knjiga>
+  </div>
+</div>
+-->
+
+<!--
+<div>
+  <app-knjiga 
+    [id]="1"
+    [autor]="'Haled Hoseini'"
+    [naslov]="'Hiljadu čudesnih sunaca'">
+  </app-knjiga>
+</div>  
+-->
+
+<!--
+<div>
+    <app-knjiga></app-knjiga>
+</div>
+-->
